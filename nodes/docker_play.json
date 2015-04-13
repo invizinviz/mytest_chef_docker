@@ -1,6 +1,7 @@
 {
   "run_list": [
-
+    "recipe[docker]",
+    "recipe[docker_play]"
   ],
   "automatic": {
     "ipaddress": "52.17.98.233"
